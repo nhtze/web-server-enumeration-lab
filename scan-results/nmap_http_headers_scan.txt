@@ -1,0 +1,22 @@
+nmap -sT -Pn --script "http-headers" -p 80 192.168.1.153
+
+Starting Nmap 7.99 ( https://nmap.org ) at 2026-07-01 21:25 +0300
+Nmap scan report for Ubuntu-Server-Lab (192.168.1.153)
+Host is up (0.0010s latency).
+
+PORT   STATE SERVICE
+80/tcp open  http
+| http-headers:
+|   Date: Wed, 01 Jul 2026 18:25:13 GMT
+|   Server: Apache/2.4.66 (Ubuntu)
+|   Last-Modified: Wed, 01 Jul 2026 06:53:31 GMT
+|   ETag: "29b0-6558726475499"
+|   Accept-Ranges: bytes
+|   Content-Length: 10672
+|   Vary: Accept-Encoding
+|   Connection: close
+|   Content-Type: text/html
+|
+|_  (Request type: HEAD)
+
+Nmap done: 1 IP address (1 host up) scanned in 0.07 seconds

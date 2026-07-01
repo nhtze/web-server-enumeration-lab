@@ -1,0 +1,11 @@
+nmap -sT -Pn 192.168.1.153
+
+Starting Nmap 7.99 ( https://nmap.org ) at 2026-07-01 21:23 +0300
+Nmap scan report for Ubuntu-Server-Lab (192.168.1.153)
+Host is up (0.0034s latency).
+Not shown: 998 closed tcp ports (conn-refused)
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 2.12 seconds

@@ -1,0 +1,11 @@
+nmap -sT -Pn -sV -p 80 192.168.1.153
+
+Starting Nmap 7.99 ( https://nmap.org ) at 2026-07-01 21:27 +0300
+Nmap scan report for Ubuntu-Server-Lab (192.168.1.153)
+Host is up (0.0010s latency).
+
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Apache httpd 2.4.66 ((Ubuntu))
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 6.53 seconds
